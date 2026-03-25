@@ -25,7 +25,7 @@ int main () {
     scanf("%f", &preco);
     while (getchar() !='\n'); //limpar o buffer
 
-    printf("O preco da passagm eh %.2f\n", preco);
+    printf("O preco da passagm eh %.2f", preco);
 
     return 0;
 }
